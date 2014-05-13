@@ -1,5 +1,4 @@
-restdown-joyent
-===============
+# docbrand
 
 Restdown brand (style) for coherent API documentation,
 initially based on `bluejoy` brand used in the
