@@ -33,6 +33,6 @@
 <body>
 <div id="header">
     <div class="logo"><a href="http://joyent.com"><img src="%(mediaroot)s/img/logo.svg"></a></div>
-    <h1>Manta Documentation</h1>
+    <h1>%(title)s Documentation</h1>
     <a class="dev-center" href="http://joyent.com/developers"><span>For More Documentation and Support</span><br>Visit the Joyent Dev Center</a>
 </div>

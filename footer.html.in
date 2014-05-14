@@ -1,21 +1,10 @@
 <script type="text/javascript" charset="utf-8">
 
 var _fileindex="";
-_fileindex += '<form class="search" action="search.html"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>'
+_fileindex += '<form class="search" action="search.html"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
 _fileindex += '<ul id="index">';
-_fileindex += '<li><a href="index.html">Getting Started</a></li>';
-_fileindex += '<li><a href="api.html">REST API</a></li>';
-_fileindex += '<li><a href="sdks.html">SDKs and CLI Tools<a/></li>';
-_fileindex += '<li><a href="mantanfs.html">Manta-NFS</a></li>';
-_fileindex += '<li><a href="storage-reference.html">Object Storage Reference</a></li>';
-_fileindex += '<li><a href="jobs-reference.html">Compute Jobs Reference</a></li>';
-_fileindex += '<li><a href="reports.html">Reports Reference</a></li>';
-_fileindex += '<li><a href="job-patterns.html">Job Examples & Patterns</a></li>';
-_fileindex += '<li><a href="guardtime-example.html">Sample: Object Integrity Checking</a></li>';
-_fileindex += '<li><a href="compute-instance-software.html">Compute Environment Software</a></li>';
-_fileindex += '<li><a href="commands-reference.html">CLI Utilities Reference</a></li>';
+_fileindex += '<li><a href="public.html">%(title)s</a></li>';
 _fileindex += '</ul>';
-
 
 
 $('#sidebar').prepend(_fileindex);
