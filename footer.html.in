@@ -3,6 +3,7 @@
 var _fileindex="";
 _fileindex += '<form class="search" action="search.html"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
 _fileindex += '<ul id="index">';
+_fileindex += '<li><a href="sdc7">SDC7 Documentation</a><li>';
 _fileindex += '<li><a href="public.html">%(title)s</a></li>';
 _fileindex += '</ul>';
 
