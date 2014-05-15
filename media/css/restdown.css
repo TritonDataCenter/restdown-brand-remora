@@ -419,13 +419,23 @@ h3:first-child {
 }
 
 
-/*---- special for manta */
+/*---- special for docbrand */
+
+#topics {
+    margin-left: 18px;
+}
+
+#topics ul li {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline;
+}
 
 
-#sidebar ul#index {
+#topnav {
   box-sizing: border-box;
   background: #d9e3ea;
-  padding: 20px 20px 20px 0;
+  padding: 0px 20px 20px 0;
   margin-left: -15px;
   margin-top: -20px;
   width: 285px;
@@ -436,6 +446,11 @@ h3:first-child {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
+
+#searchform {
+    margin-bottom: 60px;
+}
+
 
 #index li, #index li a {
   color:black;
@@ -502,6 +517,7 @@ input[type="Submit"] {
 
 form {
   margin-top: 0;
+  padding-left: 20px;
 }
 
 ::-webkit-input-placeholder {
