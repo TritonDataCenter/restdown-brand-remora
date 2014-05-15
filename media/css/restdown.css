@@ -314,7 +314,7 @@ pre.shell code::before {
   margin:0;
   font-size:12px;
   list-style:none;
-  margin-bottom: 3px;
+/*  margin-bottom: 3px; */
 }
 
 #sidebar li div {
