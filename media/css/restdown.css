@@ -303,7 +303,7 @@ pre.shell code::before {
 #sidebar li a {
   color:#375775;
   display: inline-block;
-  padding: 0px 10px 5px 10px;
+  padding: 3px 10px 5px 10px;
 }
 
 #sidebar li a:hover {
@@ -356,6 +356,8 @@ pre.shell code::before {
   -moz-border-radius: 20px;
   border-radius: 20px;
   color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 
