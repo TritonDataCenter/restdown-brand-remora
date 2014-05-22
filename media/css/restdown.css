@@ -331,6 +331,10 @@ pre.shell code::before {
   margin-right:5px;
 }
 
+#sidebar > ul > li > div > a {
+    font-weight: bold;
+}
+
 #sidebar ul li ul {
   margin-left: 10px;
 }
@@ -437,10 +441,11 @@ h3:first-child {
 #topnav {
   box-sizing: border-box;
   background: #d9e3ea;
-  padding: 0px 20px 20px 0;
+  padding: 0px 0px 20px 0;
   margin-left: -15px;
   margin-top: -20px;
   width: 285px;
+  height: 90px;
   -webkit-border-top-left-radius: 3px;
   -webkit-border-top-right-radius: 3px;
   -moz-border-radius-topleft: 3px;

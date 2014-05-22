@@ -5,17 +5,18 @@ var _fileindex="";
 _fileindex += '<div id="topnav">';
 _fileindex +=   '<div id="topics">';
 _fileindex +=     '<ul>';
-_fileindex +=       '<li><a href="http://docs.joyent.com/jpc">Joyent Cloud</a></li>';
-_fileindex +=       '<li><a href="http://docs.joyent.com/sdc7">SDC</a></li>';
+_fileindex +=       '<li><a href="http://docs.joyent.com/jpc">Joyent Cloud</a> |</li>';
+_fileindex +=       '<li><a href="http://docs.joyent.com/sdc7">SDC7</a> |</li>';
 _fileindex +=       '<li><a href="http://apidocs.joyent.com/manta">Manta</a></li>';
 _fileindex +=     '</ul>';
 _fileindex +=   '</div>';
 _fileindex +=   '<div id="searchform">';
 _fileindex +=       '<form class="search" action="search.html"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
 _fileindex +=   '</div>';
-_fileindex +=   '<ul id="index">'
-_fileindex +=     '<li><a href="index.html">%(title)s</a></li>';
-_fileindex +=   '</ul>';
+//      Uncomment and add entries for multi-file topics.
+// _fileindex +=   '<ul id="index">'
+// _fileindex +=     '<li><a href="index.html">%(title)s</a></li>';
+// _fileindex +=   '</ul>';
 _fileindex += '</div>';
 
 $('#sidebar').prepend(_fileindex);
