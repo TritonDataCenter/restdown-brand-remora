@@ -748,9 +748,12 @@ pre.shell code::before {
 /*  margin-bottom: 3px; */
 }
 
-#sidebar li div {
+#sidebar ul ul li div {
   line-height: 1.2;
+  padding-left: 18px;
+  text-indent: -10px;
 }
+
 
 #sidebar li span.verb {
   color: #999;
@@ -783,15 +786,14 @@ pre.shell code::before {
 }
 
 #sidebar li div.current {
-}
-
-#sidebar li div.current a {
   background: #375775;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   color: white;
-  padding: 3px 10px 3px 10px;
+}
+#sidebar li div.current a {
+  color: white;
 }
 
 
