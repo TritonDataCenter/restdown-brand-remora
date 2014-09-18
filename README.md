@@ -10,9 +10,13 @@
 
 # restdown-brand-remora
 
-[Restdown brand](https://github.com/trentm/restdown#brands)
-(style) for Joyent API documentation,
-initially based on brand used in the
-[Manta Docs](http://apidocs.joyent.com/manta).
+This repository is part of the Joyent SmartDataCenter (SDC)
+and Manta projects (SDC).
+For contribution guidelines, issues, and general documentation, visit the main
+[SDC](http://github.com/joyent/sdc) and
+[Manta](http://github.com/joyent/manta) project pages.
 
 
+It is a [restdown brand](https://github.com/trentm/restdown#brands)
+(style) for Joyent API documentation
+and is included a submodule in the SDC and Manta API repos.
