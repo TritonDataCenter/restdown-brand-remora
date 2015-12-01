@@ -21,7 +21,7 @@ _fileindex +=       '<li><a href="http://apidocs.joyent.com/manta">Manta</a></li
 _fileindex +=     '</ul>';
 _fileindex +=   '</div>';
 _fileindex +=   '<div id="searchform">';
-_fileindex +=       '<form class="search" action="search.html"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
+_fileindex +=       '<form class="search" action="https://docs.joyent.com/search"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
 _fileindex +=   '</div>';
 //      Uncomment and add entries for multi-file topics.
 // _fileindex +=   '<ul id="index">'
