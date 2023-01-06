@@ -6,6 +6,7 @@
 
 <!--
     Copyright (c) 2014, Joyent, Inc.
+    Copyright 2023 MNX Cloud, Inc.
 -->
 
 <script type="text/javascript" charset="utf-8">
@@ -15,13 +16,12 @@ var _fileindex="";
 _fileindex += '<div id="topnav">';
 _fileindex +=   '<div id="topics">';
 _fileindex +=     '<ul>';
-_fileindex +=       '<li><a href="http://docs.joyent.com/jpc">Joyent Cloud</a> |</li>';
-_fileindex +=       '<li><a href="http://docs.joyent.com/sdc7">SDC7</a> |</li>';
-_fileindex +=       '<li><a href="http://apidocs.joyent.com/manta">Manta</a></li>';
+_fileindex +=       '<li><a href="http://docs.tritondatacenter.com/private-cloud">Triton</a> |</li>';
+_fileindex +=       '<li><a href="http://apidocs.tritondatacenter.com/manta">Manta</a></li>';
 _fileindex +=     '</ul>';
 _fileindex +=   '</div>';
 _fileindex +=   '<div id="searchform">';
-_fileindex +=       '<form class="search" action="https://docs.joyent.com/search"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
+_fileindex +=       '<form class="search" action="https://docs.tritondatacenter.com/search"><input type="text" placeholder="Search" name="q"><input type="Submit" value=""></form>';
 _fileindex +=   '</div>';
 //      Uncomment and add entries for multi-file topics.
 // _fileindex +=   '<ul id="index">'
